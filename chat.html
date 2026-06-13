@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PromptForge AI</title>
 
+<link rel="stylesheet" href="chat.css">
+</head>
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            PromptForge
+        </div>
+
+        <button class="new-chat">
+            + New Chat
+        </button>
+
+        <div class="chat-history">
+
+            <div class="chat-item">
+                Chat 1
+            </div>
+
+            <div class="chat-item">
+                Chat 2
+            </div>
+
+            <div class="chat-item">
+                Chat 3
+            </div>
+
+        </div>
+
+    </aside>
+
+    <main class="main-chat">
+
+        <div id="chat-box">
+
+            <div class="welcome">
+
+                <h1>PromptForge AI</h1>
+
+                <p>
+                    Your AI Coding Assistant
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="input-area">
+
+            <textarea
+                id="prompt"
+                placeholder="Ask PromptForge anything..."
+            ></textarea>
+
+            <button onclick="sendMessage()">
+                Send
+            </button>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="chat.js"></script>
+
+</body>
+</html>
